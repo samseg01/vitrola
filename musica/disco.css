@@ -1,0 +1,86 @@
+.vinil {
+    position: relative;
+    width: 70%;
+    height: 73.156%;
+    max-width: 480px;
+
+    border-radius: 300px;
+    background-image: linear-gradient(#000, #242a24de);
+
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    animation: none;
+}
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#um {
+    width: 98.1%;
+    height: 98.1%;
+    background-color: transparent;
+    border-radius: 300px;
+    border: 2px solid #acacacbf;
+
+}
+#dois {
+    width: 85%;
+    height: 85%;
+    background-color: transparent;
+    border-radius: 300px;
+    border: 3px solid #00000057;  
+}
+#tres {
+    width: 82%;
+    height: 82%;
+    background-color: transparent;
+    border-radius: 300px;
+    border: 3px solid #00000057; 
+}
+
+#quatro {
+    width: 79%;
+    height: 79%;
+    background-color: transparent;
+    border-radius: 300px;
+    border: 3px solid #00000057;  
+}
+#cinco {
+    width: 76%;
+    height: 76%;
+    border-radius: 150px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #00000057;  
+}
+
+
+#circulo-central {
+    width: 93%;
+    height: 93%;
+    border-radius: 150px;
+    border: 2px solid #00000057;  
+
+}
+.furo {
+    width: 7%;
+    height: 7%;
+    border-radius: 50px;
+    background-color: black; 
+    display: none;
+}
+
+@keyframes rodar {
+    0%{
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}

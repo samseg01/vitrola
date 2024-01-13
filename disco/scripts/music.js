@@ -1,6 +1,5 @@
-console.log()
-
-const musica = new Audio(localStorage.getItem('valueText')+'.mp3');
+const caminho = 'disco\sons'
+const musica = new Audio(caminho+localStorage.getItem('valueText')+'.mp3');
 
 const agulhaF = document.querySelector('.cabeça-agulha');
 

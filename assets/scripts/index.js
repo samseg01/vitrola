@@ -24,138 +24,138 @@ musica1.addEventListener('click', function(){
 
     var text = musica1.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica2.addEventListener('click', function(){
     console.log(musica2.textContent.split('.'));
 
     var text = musica2.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica3.addEventListener('click', function(){
     console.log(musica3.textContent.split('.'));
 
     var text = musica3.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica4.addEventListener('click', function(){
     console.log(musica4.textContent.split('.'));
 
     var text = musica4.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica5.addEventListener('click', function(){
     console.log(musica5.textContent.split('.'));
 
     var text = musica5.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica6.addEventListener('click', function(){
     console.log(musica6.textContent.split('.'));
 
     var text = musica6.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica7.addEventListener('click', function(){
     console.log(musica7.textContent.split('.'));
 
     var text = musica7.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica8.addEventListener('click', function(){
     console.log(musica8.textContent.split('.'));
 
     var text = musica8.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica9.addEventListener('click', function(){
     console.log(musica9.textContent.split('.'));
 
     var text = musica9.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica10.addEventListener('click', function(){
     console.log(musica10.textContent.split('.'));
 
     var text = musica10.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica11.addEventListener('click', function(){
     console.log(musica11.textContent.split('.'));
 
     var text = musica11.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica12.addEventListener('click', function(){
     console.log(musica12.textContent.split('.'));
 
     var text = musica12.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica13.addEventListener('click', function(){
     console.log(musica13.textContent.split('.'));
 
     var text = musica13.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica14.addEventListener('click', function(){
     console.log(musica14.textContent.split('.'));
 
     var text = musica14.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica15.addEventListener('click', function(){
     console.log(musica15.textContent.split('.'));
 
     var text = musica15.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica16.addEventListener('click', function(){
     console.log(musica16.textContent.split('.'));
 
     var text = musica16.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica17.addEventListener('click', function(){
     console.log(musica17.textContent.split('.'));
 
     var text = musica17.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica18.addEventListener('click', function(){
     console.log(musica18.textContent.split('.'));
 
     var text = musica18.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica19.addEventListener('click', function(){
     console.log(musica19.textContent.split('.'));
 
     var text = musica19.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })
 musica20.addEventListener('click', function(){
     console.log(musica20.textContent.split('.'));
 
     var text = musica20.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    window.location.href = "musica/index.html";
+    window.location.href = "/disco.html";
 })

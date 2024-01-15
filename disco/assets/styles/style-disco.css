@@ -21,7 +21,7 @@ body {
     height: 550px;
     border: 5px solid black;
     border-radius: 20px;
-    box-shadow: #000 18px 20px 0 9px;
+    box-shadow: #000 9px 9px 24px 5px;
 
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@ body {
     background-color: #000;
     transform: translateY(20%);
     border-radius: 9px;
-    box-shadow: #000000bf 6px 10px 3px;
+    box-shadow: #000000bf 10px 3px 10px 1px;
 }
 .corpo-agulha2 {
     width: 71%;
@@ -68,7 +68,7 @@ body {
     left: 52px;
     top: 6%;
     border-radius: 20px;
-    box-shadow: #000000bf 11px 2px 3px;
+    box-shadow: #000000bf 10px 10px 11px 1px;
 }
 .agulha{
     width: 157%;

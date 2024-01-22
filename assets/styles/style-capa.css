@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
 }
 
 /*    font-family: "Inter", sans-serif;
@@ -61,7 +62,6 @@ body {
 .titulo {
     height: 10%;
     width: 100%;
-    font-family: "Inter", sans-serif;
     font-size: 256%;
     color: white;
     padding-left: 7%;
@@ -113,7 +113,6 @@ ul {
 .bntM {
     width: fit-content;
     height: 22px;
-    font-family: "Inter", sans-serif;
     font-size: 12px;
     letter-spacing: 1px;
     color: white;

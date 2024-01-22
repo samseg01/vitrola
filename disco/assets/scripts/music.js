@@ -22,7 +22,7 @@ document.getElementById('play-btn').addEventListener('click', function(){
     setTimeout(() => {
         musica.currentTime = 0;
         musica.play();
-        agulhaF.style.rotate = '19deg';
+        agulhaF.style.rotate = '125deg';
         agulhaF.style.animation = 'tremer-agulha 6s linear infinite';
     },(2000));
 
@@ -30,27 +30,27 @@ document.getElementById('play-btn').addEventListener('click', function(){
 const element = document.querySelector('body');
 const agulha = document.getElementById('agulha');
 
-agulha.addEventListener('mouseup', function(){
-    console.log(getComputedStyle(agulhaF).position)
-    element.addEventListener('mousemove', (event) => {
-        const x = event.clientX;
-        const y = event.clientY;
-        console.log(`A posição atual do cursor do mouse é: (${x}, ${y})`);
-        //ponteiro.style.top = y+'px';
-        //ponteiro.style.left = x+'px';
-        let valor = (x*y)/2;
-        //566 742
-        valor = (valor/1000)+124
-        /*if(valor<0){
-            valor = valor+(19+300)/1000
-        }*/
+// agulha.addEventListener('mouseup', function(){
+//     console.log(getComputedStyle(agulhaF).position)
+//     element.addEventListener('mousemove', (event) => {
+//         const x = event.clientX;
+//         const y = event.clientY;
+//         console.log(`A posição atual do cursor do mouse é: (${x}, ${y})`);
+//         //ponteiro.style.top = y+'px';
+//         //ponteiro.style.left = x+'px';
+//         let valor = (x*y)/2;
+//         //566 742
+//         valor = (valor/1000)+124
+//         /*if(valor<0){
+//             valor = valor+(19+300)/1000
+//         }*/
     
-        console.log(valor);
-        agulhaF.style.rotate = '-'+(valor-42-79)+'deg';
+//         console.log(valor);
+//         agulhaF.style.rotate = '-'+(valor-42-79)+'deg';
 
 
-    });    
-})
+//     });    
+// })
 
 
 

@@ -24,7 +24,6 @@ musica1.addEventListener('click', function(){
 
     var text = musica1.textContent.split('.');
     localStorage.setItem('valueText', text[0]);
-    console.log(text[0], enviado);
     window.location.href = "disco/index.html";
 })
 musica2.addEventListener('click', function(){

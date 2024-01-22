@@ -124,6 +124,7 @@ body {
     border-radius: 30px;
     background-color: aliceblue;
     border: none;
+    cursor: pointer;
 }
 
 .caixa-volume {

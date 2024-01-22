@@ -30,7 +30,7 @@ body {
     display: flex;
 
     background-color: white;
-    width: 50%;
+    width: auto;
     height: 69%;
     min-width: 350px;
     max-width: 600px;
@@ -126,13 +126,6 @@ body {
     border: none;
     cursor: pointer;
 }
-
-.caixa-volume {
-    height: fit-content;
-    width: fit-content;
-
-    display: none;
-}
 #volume {
     rotate: 270deg;
     width: 39vh;
@@ -226,8 +219,12 @@ input[type=range] {
   input[type=range]:focus::-ms-fill-upper {
     background: #3071A9;
   }
-  @media(orientation: portrait){
+
+@media(orientation: portrait){
     #caixa{
+        display: none;
+    }
+    #volume {
         display: none;
     }
     #virar-tela {

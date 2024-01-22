@@ -1,6 +1,6 @@
 const vinil = document.querySelector('.vinil');
 const baseAgulha = document.querySelector('.cabeça-agulha')
-const caixa = document.getElementById('caixa')
+const caixa = document.getElementById('caixa');
 
 function tamanho(){
     let tamanhoW = getComputedStyle(vinil).width.split('p');
@@ -12,8 +12,11 @@ function tamanho(){
     let tamanhoWCaixa = getComputedStyle(caixa).width.split('p');
     let tamanhoHCaixa = getComputedStyle(caixa).height.split('p');
 
-    let tamanhoCaixaAtualizado = Number(tamanhoHCaixa[0])/100*90;
+    let redmCaixa = Number(tamanhoHCaixa[0])*1.1    
+    console.log(redmCaixa+'px')
+    caixa.style.width = redmCaixa+'px';
 
+    let tamanhoCaixaAtualizado = Number(tamanhoHCaixa[0])/100*90;
     vinil.style.height = tamanhoCaixaAtualizado+'px';
 
     if(tamanhoW[0] !== tamanhoH[0]){

@@ -31,7 +31,7 @@ body {
 
     background-color: white;
     width: 50%;
-    height: 80%;
+    height: 69%;
     min-width: 350px;
     max-width: 600px;
     border: 5px solid black;
@@ -41,7 +41,8 @@ body {
     display: flex;
     align-items: center;
 
-    padding-left: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 #footer{
     height: 100vh;
@@ -230,5 +231,11 @@ input[type=range] {
     }
     #virar-tela {
         display: block;
+    }
+}
+
+@media(max-height: 700px){
+    #caixa {
+       width: 40%;
     }
 }
